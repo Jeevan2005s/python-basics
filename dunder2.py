@@ -10,4 +10,6 @@ b=beta()
 b.getname()
 a=dunders.alpha()
 a.getname()
-print(__name__)        
+print(__name__)    
+
+# Lambda concepts
