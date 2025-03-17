@@ -20,4 +20,4 @@ def merge(list):
     return mergesort(l,r)
 a=list(map(int,input().split()))
 sorted_array=merge(a)
-print(sorted_array)
+print(*sorted_array)
