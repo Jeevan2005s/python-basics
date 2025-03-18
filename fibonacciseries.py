@@ -10,7 +10,7 @@
 # s=int(input("Enter the number of elements you want:"))
 # print(*fibonacci(0,1,s,[]))
 
-#modified code
+#modified code for find the last number of the given fibonacci series
 
 def fibonac(n):
     if n==0:
