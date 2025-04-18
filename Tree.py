@@ -1,3 +1,5 @@
+#generakl Tree
+
 class Tree:
     def __init__(self,data):
         self.data=data
@@ -7,7 +9,7 @@ class Tree:
     def PrintTree(self):
         print(self.data)
         for child in self.children:
-            child.PrintTree()
+            child.PrintTree()  
 
 d=Tree("School")
 c1=Tree(10)
