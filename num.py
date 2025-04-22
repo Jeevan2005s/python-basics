@@ -19,5 +19,6 @@ s=x.reshape(4,4)
 a=[1,2,3,4]
 # print(len(a))
 # print(len(a))
-a=np.arange(1,6,0.5)
+a=np.arange(1,6)
 print(a)
+
