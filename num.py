@@ -20,5 +20,25 @@ a=[1,2,3,4]
 # print(len(a))
 # print(len(a))
 a=np.arange(1,6)
-print(a)
+# print(a)
 
+
+a=np.arange(1,13).reshape(3,4)
+b=a.T#to transpose
+# print(b)
+s=np.sum(a,axis=1)
+# print(s)
+
+b=np.arange(6)
+# print(np.all(b>=0))
+
+for i in np.nditer(a):
+    print(i)
+
+for j,i in np.ndenumerate(a):
+    print(j,i)     
+
+x=np.array([1,2,3])
+y=np.array([3,5,3])
+z=np.concatenate((x,y))
+print(z)    
